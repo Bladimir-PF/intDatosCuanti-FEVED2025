@@ -100,7 +100,7 @@ Pregunta de investigación $\rightarrow$ Diseño $\rightarrow$ Recolección de d
 
 # Comprender el propósito del estudio
 
-**Qué hace el estudio?**
+**¿Qué hace el estudio?**
 
 - *Describir*: Analizar el rendimiento promedio en SIMCE Matemáticas por curso
 - *Explorar*: Analizar la relación entre género y rendimiento en SIMCE Matemáticas
@@ -138,10 +138,14 @@ Pregunta de investigación $\rightarrow$ Diseño $\rightarrow$ Recolección de d
 
 **Aspectos clave:**
 
-- **Validez interna**: ¿Los resultados reflejan relaciones reales o existen variables confundentes?
+- **Validez interna**: ¿Los resultados reflejan relaciones reales o existen variables de confusión?
 - **Validez externa**: ¿Los resultados son generalizables (generalizabilidad vs transportabilidad)?
 - **Sesgos**: ¿Existen sesgos de selección, medición o análisis?
 - **Control de variables**: ¿Se controlaron factores relevantes?
+
+# Relación entre factor y resultados
+
+![](bias.png){width="60%"}
 
 # Evaluar la muestra y el muestreo
 
@@ -160,13 +164,17 @@ Pregunta de investigación $\rightarrow$ Diseño $\rightarrow$ Recolección de d
 **Tipos de variables más comunes:**
 
 - **Dependientes/Resultados**: Su variación es el foco principal del análisis (ej: puntaje SIMCE)
-- **Independientes/Predictoras**: Explican/predicen la variabilidad de la variable dependiente (ej: nivel socioeconómico)
+- **Independientes/Predictoras**: Explican/predicen la variabilidad de la variable dependiente (ej: nivel socioeconómico; NSE)
 
 Luego tenemos:
 
 - **Covariables**: Sirven para *controlar* la relación entre otras variables (ej: edad)
 - **Moderadores**: Moderan la relación entre predictores y resultado (ej: administración de colegio sobre género)
 - **Mediadores**: Crean relaciones indirectas entre predictores y resultado (ej: motivación entre género y rendimiento)
+
+# Moderación vs Mediación
+
+![](mod.png){width="60%"}
 
 # Revisar las estadísticas descriptivas
 
@@ -208,7 +216,8 @@ Luego tenemos:
 **Significancia práctica:**
 
 - Tamaño del efecto ($d$ de Cohen, $r$ de Pearson, $\eta^2$)
-- Comunicación/interpretación: ¿Una diferencia de 5 puntos en SIMCE es relevante?
+- Relevancia para el público: ¿Qué significa estar un nivel de rendimiento elemental en SIMCE Matemáticas?
+- ¿Puedo aplicar estos resultados en mi contexto?
 
 **Problema**: Ambos tipos de significancia suelen confundirse.
 
@@ -239,8 +248,8 @@ Alfa de Cronbach ($\alpha$) es una medida común de consistencia interna con fue
 
 **Limitaciones comunes:**
 
-- Diseño que no permite inferencia causal
-- Muestra no representativa o de conveniencia
+- **Diseño que no permite inferencia causal**
+- **Muestra no representativa** o por conveniencia
 - Medidas de auto-reporte con sesgos
 - Datos faltantes significativos
 
@@ -251,7 +260,6 @@ Alfa de Cronbach ($\alpha$) es una medida común de consistencia interna con fue
 - ¿Las implicaciones se derivan lógicamente de los resultados?
 - ¿Las recomendaciones son prácticas y factibles?
 - ¿Se consideran las limitaciones al formular recomendaciones?
-- ¿Se identifican áreas para investigación futura?
 - ¿Las conclusiones son consistentes con la literatura existente?
 
 **Advertencia**: Desconfíe de recomendaciones basadas en estudios con diseños deficientes.
@@ -264,7 +272,7 @@ Alfa de Cronbach ($\alpha$) es una medida común de consistencia interna con fue
 \end{center}
 \vspace{4cm}
 
-# Regresión Lineal
+# Regresión Lineal (Múltiple de un solo nivel)
 
 **¿Qué es?** Modelo estadístico (*representación matemática simplificada de un fenómeno*) que examina la relación entre una variable dependiente continua y una o más variables independientes.
 
@@ -303,7 +311,7 @@ $$\hat{Y} = 200 + 15X_1 + 3X_2$$
 
 - Explora la estructura subyacente de un conjunto de variables observadas (ítems/indicadores)
 - Identifica factores latentes y su estructura (número de ítems en cada factor)
-- **Interpretación**: Carga factorial ($\lambda$) \approx pendiente ($\hat{\beta}$), intercepto del ítem ($\mu$) \approx intercepto ($\hat{\beta}_0$), error único ($e$) \approx error residual.
+- **Interpretación**: Carga factorial ($\lambda$) similar a pendiente ($\hat{\beta}$), intercepto del ítem ($\mu$) similar a intercepto ($\hat{\beta}_0$), error único ($e$) similar a error residual.
   
 **Análisis Factorial Confirmatorio (AFC):**
 
@@ -312,7 +320,7 @@ $$\hat{Y} = 200 + 15X_1 + 3X_2$$
 
 # Ejemplo
 
-IDPS clima de convivencia escolar. AFE identifica dimensiones subyacentes: ambiente de seguridad, ambiente de respeto, ambiente seguro. AFC provee evidencia sobre el ajuste de esta estructura de 3 factores a los datos.
+IDPS clima de convivencia escolar. AFE identifica dimensiones subyacentes: *ambiente de seguridad*, *ambiente de respeto* y *ambiente seguro*. AFC provee evidencia sobre el ajuste de esta estructura de 3 factores a los datos.
 
 # Ejemplo: AFE
 
@@ -373,7 +381,6 @@ $$
 **Ventajas sobre Teoría Clásica de Tests:**
 
 - Estimaciones de habilidad independientes de los ítems específicos
-- Permite pruebas adaptativas (CAT)
 
 # Ejemplo: Modelo Rasch (1PL) en PAES 2024
 
