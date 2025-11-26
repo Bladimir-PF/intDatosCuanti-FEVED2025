@@ -36,11 +36,17 @@ header-includes:
 
 # Contenidos
 
-\vspace{.1cm}
+::::: {.columns}
+::: {.column width="70%"}
 - Antecedentes
 - Criterios para comprender (producir y consumir) análisis cuantitativos de resultados
 - Ejemplos de análisis cuantitativo: modelos y resultados comunes en contextos educativos
-\vspace{4cm}
+:::
+
+::: {.column width="30%"}
+![](qrcode.png){width="100%"}
+:::
+:::::
 
 # Marco de trabajo
 
