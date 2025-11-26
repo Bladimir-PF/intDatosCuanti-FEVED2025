@@ -226,6 +226,7 @@ Luego tenemos:
 **Validez**: Grado en que la evidencia y la teoria respaldan la interpretación de los resultados y las decisiones pretendidas.
 
 **Evidencias de validez**:
+
 - **Validez de constructo**: ¿Las medidas capturan lo que pretenden medir?
 - **Validez de contenido**: ¿El contenido de la medida es representativo del dominio?
 - **Validez de criterio**: ¿Las medidas se correlacionan con criterios externos relevantes?
